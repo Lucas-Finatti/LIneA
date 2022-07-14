@@ -17,5 +17,11 @@ class SystemMessages:
         },
         INVALID_TOKEN = {
             "error": {"reason": "Access denied because your token is invalid."}
+        },
+        INVALID_QUERY_PARAMETER = {
+            "error": {"reason": "The query parameter used is invalid."}
+        },
+        QUERY_PARAMETER_NOT_FOUND = {
+            "error": {"reason": "The query parameter used was not found."}
         }
         
